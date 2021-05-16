@@ -37,7 +37,7 @@ void loop() {
   
   /*the cutoff level for whether the light is on or off.
   increase this value to have the light turn off more
-  of the time. degrease it to have the light on more
+  of the time. decrease it to have the light on more
   of the time*/
   int cutoffValue = 3;
 
