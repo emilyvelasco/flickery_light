@@ -61,7 +61,7 @@ void loop() {
   }
   delay(70);
 /*increase the minimum brightness value until it reaches full brightness
-replace 254 and 255 with lowe values to maintain some flicker*/
+replace 254 and 255 with lower values to maintain some flicker*/
   if(bottomRandom > 254) {
     bottomRandom = 255;
 }
