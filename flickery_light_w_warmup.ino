@@ -1,6 +1,8 @@
 /*
   This sketch will flicker an LED attached to pin 9 of an Arduino using the analogWrite()
-  function. If you connect an LED directly to the pin, be sure to use an appropriate value
+  function. It is similar to flickery_light.ino, except it "warms up," with the flickering
+  becoming less and less until the light stays on steadily.
+  If you connect an LED directly to the pin, be sure to use an appropriate value
   current-limiting resistor. To control higher-power LEDS, use a MOSFET breakout board
   like the ones found here:
   www.amazon.com/High-Power-Transistor-Driving-Controller-Electronic/dp/B07XJSRY6B/
