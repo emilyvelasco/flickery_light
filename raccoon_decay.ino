@@ -4,7 +4,7 @@
 #include "SPI.h"
 TMRpcm tmrpcm;
 
-int led = 8;           // the PWM pin the LED is attached to
+int led = 3;           // the PWM pin the LED is attached to
 int randomLevel;
 int lightLevel;
 int cutoffValue;
